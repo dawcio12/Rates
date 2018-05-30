@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@android:color/darker_gray">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtName"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:text="Nazwa Waluty" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:id="@+id/imgFlaga"
+            android:layout_weight="1"
+            android:layout_marginBottom="8.0dp"
+            android:layout_marginLeft="8.0dp" />
+        <TextView
+            android:text="Kod Waluty"
+            android:id="@+id/txtKod"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:text="Kupno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Średni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="Sprzedaż"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:id="@+id/textView3" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3">
+        <TextView
+            android:text="0,0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtBuy"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_weight="1" />
+        <TextView
+            android:text="0,0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMid"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_weight="1" />
+        <TextView
+            android:text="0,0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:id="@+id/txtSell"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <TextView
+        android:text="Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"
+        android:id="@+id/txtDate"
+        android:layout_marginTop="6.5dp" />
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginBottom="0.0dp">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:id="@+id/flag_country1"
+            android:layout_gravity="left" />
+        <Button
+            android:text="Switch"
+            android:layout_width="87.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/swich"
+            android:layout_gravity="center" />
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:id="@+id/flag_country2"
+            android:layout_gravity="right" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:text="Amount"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1" />
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="240.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/txtAmount"
+            android:layout_marginLeft="10.0dp" />
+        <TextView
+            android:text="Rate"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+        <EditText
+            android:editable="false"
+            android:layout_width="240.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/txtRate"
+            android:layout_marginLeft="10.0dp" />
+        <TextView
+            android:text="Result"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+        <EditText
+            android:editable="false"
+            android:layout_width="240.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtResult"
+            android:layout_marginLeft="10.0dp" />
+    </LinearLayout>
+</LinearLayout>
