@@ -65,6 +65,7 @@
             android:id="@+id/textView3" />
         <EditText
             android:editable="false"
+            android:text="0"
             android:layout_width="240.0dp"
             android:layout_height="wrap_content"
             android:id="@+id/txtResult"
